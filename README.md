@@ -70,3 +70,8 @@ Default values of arguments are stored in the configuration dictionary and can b
 speed(speed=None):
 Set the turtle’s speed to an integer value in the range 0..10. If no argument is given, 
 return current speed.
+
+### done
+done():
+Starts event loop - calling Tkinter’s mainloop function. 
+Must be the last statement in a turtle graphics program.
